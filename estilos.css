@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+}
+h1
+{
+    color: black; 
+    font-family:'Times New Roman', Times, serif
+}
+body
+{
+    background-color: rgb(44,39,39,40)
+}
+ol
+{
+    list-style: none;
+}
+nav li
+{
+    display: block;
+    padding: 30px;
+    float: left;
+    background-color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav li a
+{
+   text-decoration: none;
+}
+nav li:hover
+{
+    background-color: chartreuse;
+    transition: 0.8s;
+    text-transform: uppercase;
+}
+header
+{
+    background-color:royalblue;
+    overflow: auto;
+}
+section
+{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.central
+{
+    background-color: cornflowerblue;
+    width: 450;
+}
+.central img
+{
+   width: 50%;
+   padding: 20px;
+}
